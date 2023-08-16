@@ -1,0 +1,38 @@
+/* AboutMe.css */
+
+.about-me-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #cfcfcf;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.profile-image-container {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-info-container {
+  flex: 1;
+}
+
+.about-info-container h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.about-info-container p {
+  color: #666;
+  font-size: 1rem;
+}
